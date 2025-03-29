@@ -39,6 +39,17 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '65ch',
+            color: 'hsl(var(--foreground))',
+            '[class~="dark"] &': {
+              color: 'hsl(var(--foreground))',
+            },
+          },
+        },
+      },
     },
   },
   plugins: [],
